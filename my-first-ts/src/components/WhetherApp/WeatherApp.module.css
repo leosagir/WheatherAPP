@@ -1,0 +1,72 @@
+.weatherApp {
+  background-image: url('C:\Users\leosa\OneDrive\Документы\FrontendPRO\TypeScript\WheatherApp\my-first-ts\src\background.jpeg');
+  background-size: cover;
+  color: rgb(27, 26, 91);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.form {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+ 
+  
+}
+
+.input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  width: 200px; 
+}
+
+.button {
+  padding: 10px 20px;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: #0056b3;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}
+
+.card {
+  margin-top: 20px;
+}
+
+.forecast {
+  margin-top: 20px;
+}
+
+.forecastCard {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #f9f9f9;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.forecastCard:hover {
+  transform: scale(1.05);
+}
+
+.details {
+  margin-top: 10px;
+  text-align: left;
+}

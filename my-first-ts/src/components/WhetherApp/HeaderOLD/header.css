@@ -1,0 +1,30 @@
+
+header {
+    background-color: #242130f2; 
+    color: white; 
+    padding: 28px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    position: sticky; 
+    top: 0; 
+    z-index: 1000; 
+  }   
+  
+  header h3 {
+    font-size: 34px; /* Размер шрифта заголовка */
+    font-weight: bold; /* Жирный шрифт */
+    margin: 0; /* Убираем отступы */
+  }
+    
+  header span {
+    font-size: 18px; 
+    margin-left: auto; 
+  }
+  
+    header span {
+      font-size: 16px; 
+      margin-left: 0;
+    }
+  
+  

@@ -1,9 +1,13 @@
 import React from 'react';
-import { render, screen } from '@testing-library/react';
-import App from './App';
+import WeatherApp from './components/WhetherApp/WeatherApp';
+import styles from './App.module.css';
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
-});
+const App = () => {
+  return (
+    <div className={styles.app}>
+      <WeatherApp />
+    </div>
+  );
+}
+
+export default App;

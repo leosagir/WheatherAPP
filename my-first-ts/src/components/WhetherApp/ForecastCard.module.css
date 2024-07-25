@@ -1,0 +1,35 @@
+.forecastCard {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #f9f9f9;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  
+  .forecastCard:hover {
+    transform: scale(1.05);
+  }
+  
+  .details {
+    margin-top: 10px;
+    text-align: left;
+  }
+  
+  h3 {
+    margin: 0;
+    font-size: 1.2em;
+  }
+  
+  p {
+    margin: 5px 0;
+  }
+  
+  h4 {
+    margin: 5px 0;
+    font-size: 1.1em;
+    color: #333;
+  }
+  
